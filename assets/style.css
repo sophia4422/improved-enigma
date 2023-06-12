@@ -1,3 +1,38 @@
 * {
   font-family: "Montserrat", sans-serif;
 }
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.pink {
+  color: #ff40ff;
+}
+
+.pink-button {
+  color: #ff40ff;
+  border: solid #ff40ff;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  max-width: fit-content;
+}
+
+.pink-title {
+  color: #ff40ff;
+  border: solid #ff40ff;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  max-width: fit-content;
+  text-transform: uppercase;
+}
+
+.grey-bg {
+  background-color: #f6f6f6;
+  padding: 20px;
+}
+
+.grey-pink {
+  background-color: #f6f6f6;
+  border: solid #ff40ff;
+}
