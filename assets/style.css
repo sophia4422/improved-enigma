@@ -50,9 +50,24 @@
   border: solid #ff40ff;
 }
 
+.pink-border {
+  border: solid #ff40ff;
+}
+
 .figma-embed {
   height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.hidden {
+  opacity: 0;
+  filter: blue(5px);
+  transition: all 1s;
+}
+
+.show {
+  filter: blur(0);
+  opacity: 1;
 }
