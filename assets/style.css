@@ -18,6 +18,11 @@
   font-weight: 500;
 }
 
+.title-padding {
+  padding-bottom: 6vh;
+  padding-top: 6vh;
+}
+
 .pink-button {
   color: #ff40ff;
   border: solid #ff40ff;
@@ -64,10 +69,13 @@
 .hidden {
   opacity: 0;
   filter: blue(5px);
+  transform: translateY(0%);
   transition: all 1s;
+  transition-delay: 300ms;
 }
 
 .show {
   filter: blur(0);
   opacity: 1;
+  transform: translateY(-1%);
 }
