@@ -18,6 +18,15 @@
   font-weight: 500;
 }
 
+hr {
+  padding-top: 3rem !important;
+}
+
+.bold-pink {
+  font-weight: 500;
+  color: #ff40ff;
+}
+
 .title-padding {
   padding-bottom: 6vh;
   padding-top: 6vh;
@@ -70,7 +79,7 @@
   opacity: 0;
   filter: blue(5px);
   transform: translateY(0%);
-  transition: all 1s;
+  transition: all 2s;
   transition-delay: 300ms;
 }
 
