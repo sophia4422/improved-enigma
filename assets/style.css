@@ -10,6 +10,10 @@
   color: #ff40ff;
 }
 
+.white {
+  color: #ffff;
+}
+
 .italics {
   font-style: italic;
 }
@@ -91,4 +95,25 @@ hr {
 
 .hr-hidden {
   color: white !important;
+}
+
+#ch {
+  display: none;
+}
+
+#ch:checked ~ .content {
+  display: block;
+}
+
+#ch:checked ~ label {
+  display: none;
+}
+
+.content {
+  display: none;
+}
+
+label {
+  display: inline-block;
+  cursor: pointer;
 }
