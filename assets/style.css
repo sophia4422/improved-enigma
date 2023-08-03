@@ -61,6 +61,7 @@ hr {
 .grey-pink {
   background-color: #f8f9fa;
   border: solid #ff40ff;
+  display: inline-block;
 }
 
 .white-pink {
