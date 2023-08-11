@@ -64,6 +64,14 @@ hr {
   display: inline-block;
 }
 
+.grey-pink-2 {
+  background-color: #f8f9fae0;
+  border: solid #ff40ff;
+  display: inline-block;
+  color: #ff40ff;
+  padding: 1rem;
+}
+
 .white-pink {
   background-color: white;
   border: solid #ff40ff;
@@ -117,4 +125,17 @@ hr {
 label {
   display: inline-block;
   cursor: pointer;
+}
+
+.carousel-caption {
+  top: 100%;
+}
+
+.carousel-inner {
+  padding-bottom: 100px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(100%);
 }
