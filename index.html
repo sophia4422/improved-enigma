@@ -46,8 +46,28 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link mx-2" href="#projects">Projects</a>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link mx-2 dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              data-bs-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Projects
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#"
+                >Redesigning the ladies' restroom</a
+              >
+              <a class="dropdown-item" href="/pages/friend.html"
+                >Click here to make friends</a
+              >
+              <a class="dropdown-item" href="/pages/drum.html"
+                >Become a drumming legend</a
+              >
+            </div>
           </li>
           <li class="nav-item">
             <a class="nav-link mx-2" href="/pages/about.html">About</a>
@@ -161,6 +181,7 @@
 
     <!-- Footer -->
     <!-- Section: Social media -->
+    <hr class="hr-hidden" />
     <footer class="text-center text-lg-start">
       <section class="mb-4 text-center">
         <!-- Linkedin -->
@@ -186,6 +207,7 @@
           ><i class="fab fa-github"></i
         ></a>
       </section>
+      <hr class="hr-hidden" />
     </footer>
   </body>
 </html>
