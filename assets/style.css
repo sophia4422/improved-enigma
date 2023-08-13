@@ -58,6 +58,16 @@ hr {
   padding: 20px;
 }
 
+.grey-bg-2 {
+  background-color: #f8f9fa;
+  padding: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.shadow {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
 .grey-pink {
   background-color: #f8f9fa;
   border: solid #ff40ff;
@@ -92,8 +102,8 @@ hr {
   opacity: 0;
   filter: blue(5px);
   transform: translateY(0%);
-  transition: all 2s;
-  transition-delay: 300ms;
+  transition: all 1.5s;
+  transition-delay: 200ms;
 }
 
 .show {
